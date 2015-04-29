@@ -1,0 +1,4 @@
+[Project]
+Name=uturingmachine
+Manager=KDevCMakeManager
+VersionControl=kdevgit
