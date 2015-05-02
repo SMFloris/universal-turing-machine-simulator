@@ -4,7 +4,7 @@ find_package(Qt4 REQUIRED)
 
 include_directories(${QT_INCLUDES} ${CMAKE_CURRENT_BINARY_DIR})
 
-set(uturingmachine_SRCS uturingmachine.cpp main.cpp)
+set(uturingmachine_SRCS trecere.cpp stare.cpp banda.cpp masinaturinguniversala.cpp uturingmachine.cpp main.cpp)
 
 qt4_automoc(${uturingmachine_SRCS})
 add_executable(uturingmachine ${uturingmachine_SRCS})
